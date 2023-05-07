@@ -1,0 +1,5 @@
+0 Chihiua
+1 BloodHound
+2 Cardigan
+3 Malamute
+4 French Bulldog
