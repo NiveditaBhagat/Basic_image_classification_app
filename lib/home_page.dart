@@ -96,11 +96,18 @@ class _HomePageState extends State<HomePage> {
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 20.0,
+                background: Paint()..color=Colors.white,
+                fontWeight: FontWeight.bold,
               ),
-            ): Text()
+            ): Text("Classifiaction waiting")
           ],
         ),
-      )
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: pickImage,
+        tooltip: 'Increment',
+        child: Icon(Icons.add)
+        ),
     );
   }
 }
